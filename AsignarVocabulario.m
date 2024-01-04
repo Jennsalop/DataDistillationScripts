@@ -8,7 +8,7 @@ end
 test1=sortrows(Vectororden);
 test1=test1(:,3:end);
 %%%%--->>> Obtiene vocabulario
-MatrixOcurr=zeros(length(DocuTumores),NumClus);%% este es el vocabulario, en este caso
+MatrixOcurr=zeros(length(DocuTumores),NumClus);%% 
 errImgs=[];
 tic
 for countDocunt=1:length(DocuTumores)
